@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranjal Shinde</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="cssFiles/fronend.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">PRANJAL SHINDE</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile">
+            <img src="portfolio_photo.jpeg" alt="Profile Picture">
+            <div class="info">
+                <p>
+                    Hello! I am <strong>Pranjal Shinde</strong>, a final-year Computer Engineering student with a strong foundation in programming and problem-solving.  
+                    My technical expertise lies in <strong>Core Java</strong>, <strong>SQL</strong>, and <strong>Data Structures</strong> using C++.  
+                    I am passionate about creating efficient solutions, exploring new technologies, and continuously learning to improve myself.  
+                </p>
+                <p>
+                    Currently, I am expanding my skill set by learning <strong>GitHub</strong> for version control and <strong>Linux</strong> for system-level operations.  
+                    My goal is to leverage my skills and knowledge to contribute meaningfully to innovative projects.
+                </p>           </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <h3>Banking Application</h3>
+                <p>
+                    Developed a robust <strong>Banking Application</strong> using <strong>Java</strong>, <strong>SQL</strong>, <strong>HTML</strong>, and <strong>CSS</strong>.  
+                    Key Features:
+                </p>
+                <ul>
+                    <li>Comprehensive user dashboard for viewing account details and transactions.</li>
+                    <li>Database integration for storing user transactions.</li>
+                    <li>Responsive user interface for seamless navigation.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>E-Commerce website</h3>
+                <p>
+                    Designed and implemented a simple <strong>e-commerce website</strong> specializing in electronic devices using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.  
+                    Key Features:
+                </p>
+                <ul>
+                    <li>Clean and organized product catalog layout.</li>
+                    <li>Static product pages with detailed descriptions.</li>
+                    <li>Basic navigation menu for smooth user interaction.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <ul>
+                <li>Core Java</li>
+                <li>SQL</li>
+                <li>Basic Data Structures and Algorithms (using C++)</li>
+                <li>Currently Learning: GitHub and Linux</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="download-cv">
+        <h2>Download My CV</h2>
+        <p>Click the button below to download my CV.</p>
+        <a href="Resume.pdf" download class="download-button">Download CV</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+          <div class="container">
+            <h2>Any Suggesions get in touch </h2>
+            <form action="https://webserver-4bi0.onrender.com/submit/" method="POST" enctype="multipart/form-data">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="username" required>
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="text" id="email" name="email" required>
+                <br>
+                <label for="query">Your Message:</label>
+                <textarea id="query" name="query" rows="4" required></textarea>
+                <br>
+                <label for="images">Upload Images:</label>
+                <input type="file" id="images" name="files" accept="image/*" multiple>
+                <br>
+                <button type="submit">submit</button>
+            </form>
+            <div id="message"></div>
+        </div>
+    </section>
+
+    
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
